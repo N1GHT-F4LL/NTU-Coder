@@ -9,5 +9,3 @@ int main()
 }
 
 // From N1ghtf4ll with luv
-
-// Template File
