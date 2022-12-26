@@ -1,6 +1,3 @@
-// HOHA - Số hoàn hảo
-// http://ntucoder.net/Problem/Details/106
-
 #include <stdio.h>
 int main()
 {

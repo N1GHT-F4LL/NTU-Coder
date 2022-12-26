@@ -1,6 +1,3 @@
-// Tổng A + B
-// http://ntucoder.net/Problem/Details/1
-
 #include <stdio.h>
 int main()
 {
