@@ -1,17 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 int Print_BinaS(int i, int n)
 {
-   int bina[65] = {}, count = 0, value = i;
-   do
+   char BinaryString[21] = "";
+   int value = i, step;
+   for (int step = 0; step < n; step++)
    {
-      bina[count] = value % 2;
-      value /= 2;
-      count++;
-   } while (value != 0);
-   for (int j = 0; j < n; j++)
-   {
-      printf("%d", bina[n - j - 1]);
+      strcat(BinaryString, (value >> step) % 2 ? "1" : "0");
    }
+   strrev(BinaryString);
+   printf("%s", BinaryString);
    return 0;
 }
 int main()
